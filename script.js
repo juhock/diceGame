@@ -84,7 +84,7 @@ btnHold.addEventListener("click", function () {
 //reset conditions
 btnNew.addEventListener("click", init);
 
-//how to play modal window
+//'how to play' modal window
 const modal = document.querySelector(".modal");
 const overlay = document.querySelector(".overlay");
 const btnCloseModal = document.querySelector(".close-modal");
