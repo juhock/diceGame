@@ -9,7 +9,28 @@
   </head>
   <body>
     <div>      
-        <button class="btn btn--how">？ How to play</button>
+        <button class="btn btn--how show-modal">？ How to play</button>
+        
+        <div class="modal hidden">
+            <button class="close-modal">&times;</button>
+            <h1>How to Play</h1>
+            <p>
+            <ol>
+                <li>
+                    Click "roll dice" as many times as you want to accumulate points. Rolling a '1' will end
+                    your turn and reset your 'current' points.
+                </li>
+                <li>
+                 Hit "collect" to add your current score to your total score & end your turn.
+                </li>
+                <li>
+                First player to 100 points wins!
+                </li>
+            </ol>
+            <h2>Good luck!</h2>
+        </div>
+        <div class="overlay hidden"></div>
+    
     </div>
     <main>
       <section class="player player--0 player--active">
